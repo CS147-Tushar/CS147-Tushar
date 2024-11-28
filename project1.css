@@ -1,0 +1,85 @@
+
+body {
+    background-color: #a0c4ff;
+    font-family: sans-serif;
+    padding: 10%;
+    margin: 10%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.searchBar {
+    background-color: white;
+    width: 700px;
+    border: none;
+    color: #a71d50;
+    padding:  10px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin-top: -42.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button {
+    background-color: #a71d50;
+    width: 200px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.search {
+    width: 30px;
+    padding: 100px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.search-icon {
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #a71d50;
+    font-size: 18px;
+}
